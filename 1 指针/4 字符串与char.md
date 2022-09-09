@@ -126,6 +126,7 @@ string str = "Hello";
 char *p = str.c_str();
 ```
 区别，返回值为const char*,即为常量字符串
+
 3 copy
 ```cpp
 string str = "Hello";
