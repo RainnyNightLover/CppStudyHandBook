@@ -119,11 +119,13 @@ cout<<first_name[0];         //可以使用数组表示法输出字符串中的�
 string str = "Hello";
 char *p = str.data();
 ```
+返回值为char*,即为常规字符串，注意与c_str的差异
 2 c_str
 ```cpp
 string str = "Hello";
 char *p = str.c_str();
 ```
+区别，返回值为const char*,即为常量字符串
 3 copy
 ```cpp
 string str = "Hello";
